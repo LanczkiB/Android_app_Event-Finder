@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <bitmap
+            android:gravity="fill_horizontal|clip_vertical"
+            android:src="@drawable/backg"/>
+    </item>
+    <rotate
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="90%"
+        android:repeatCount="infinite"
+        android:duration="1200" />
+
+</layer-list>
