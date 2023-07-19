@@ -1,33 +1,10 @@
-# Android-
-Android alkalmazás kotlinban
+# Android app - Event finder
+Android app in kotlin
 
-Mobil- és webes szoftverek című tárgy házi feladata.
+The application allows you to plan various group or pair activities in a simple and user-friendly way. The app contains fun activity ideas for all ages, whether it's a birthday party venue or an annual outing for the retirement club in Budapest.
 
-Bemutatás
+The app was inspired by the theory that people tend to organise activities in previously visited places rather than trying new ones. The app helps to find new places, saving users time and effort. It can also support many small Hungarian businesses in their recovery from the Covid period.
 
-Az alkalmazás lehetővé teszi különféle csoportos, páros tevékenységek egyszerű és 
-felhasználóbarát megtervezését. Az alkalmazás minden korosztály számára tartalmaz 
-élménydús program ötleteket, legyen szó akár egy szülinapi zsúr helyszínéről vagy a 
-nyugdíjasklub éves kirándulásáról Budapesten és környékén.
+Main features
 
-Az alkalmazás kitalálását az az elmélet ösztönözte, miszerint az emberek hajlamosak a jól 
-bevált helyekre programokat szervezni ahelyett, hogy újakat próbálnának ki. Az alkalmazás 
-összegyűjt sok lehetőséget, így időt és energiát spórol a felhasználóknak. Emellett számos 
-magyar kisvállalkozás számára segíthet a Covid időszak utáni helyreállásban.
-
-
-Főbb funkciók
-
-Az alkalmazás kezdőképernyője a bejelentkezési képernyő, ahol a felhasználó a felhasználónév 
-és a jelszó párossal tud belépni. 
-Ezután a felhasználó előtt a különböző kategóriák jelennek meg (pl: Étkezés, Kirándulás, Egyéb). 
-Ezek közül választva a következő Activity Recycler View segítségével listázza az egyes 
-kategóriába tartozó tevékenységeket. A tevékenységhez tartozó „leírás” ikonra kattintva felugró 
-DialogFragment jeleníti meg a program szöveges ismertetését. 
-Ha a „leírás” ikon helyett a „hozzáadás”-ra kattint a felhasználó, akkor a következő Activity jelenik 
-meg, ahol lehetősége van résztvevőket hozzáadni a programhoz, illetve időpontot választani. Itt 
-a résztvevők törlésére is van lehetőség.
-Ha a harmadik ikonra kattint (csillag), akkor pedig lehetősége van a felhasználónak a kedvencei 
-közé tenni a tevékenységet.SnackBarjelzi a sikeres műveletet. A kedvenceket egy külön Activity 
-listázza, amit a kategóriákat megjelenítő Activity-ről lehet elérni.
-Az alkalmazás perzisztens adattárolást használ. 
+The home screen of the application is the login screen, where the user can log in with a username and password. Then a list of categories (e.g. Meals, Trips, Others) are shown to the user. Choosing from these, the following Activity Recycler View will list the activities in each category. Clicking on the 'Description' icon, the activity will bring up a DialogFragment displaying a text description of the activity. If the user clicks on "add" instead of the "description" icon, the next Activity is displayed, where he/she can add participants to the program and select a time. Here it is also possible to delete participants. If the third icon (star) is clicked, the user has the possibility to add the activity to his/her favourites. Favourites are listed in a separate Activity, which can be accessed from the Activity that displays the categories. The application uses persistent data storage.
